@@ -17,7 +17,7 @@ The function should return with the address of a dynamically
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-____ substring(___ original, int start, int end)
+char* substring(char* c, int start, int end)
 {
   /*
    * Creates a new string from "orig" consisting of characters
